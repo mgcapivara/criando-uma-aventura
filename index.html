@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <title>A Procura da Ilha Perdida</title>
+</head>
+
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/ilha beira mar.avif" alt="">
+            <p>Voce mora em uma vila da costa brasileira, e está com seus amigos Thiago e Jane curtindo a tarde
+                ensolarada na praia. Até que ao longe vocês avistam algo boiando na água, quando este objeto chega mais
+                perto, percebem que é uma garrafa e dentro há um papel com um apelo por socorro e coordenadas
+                geograficas.Vocês decidem seguir as coordenadas imediatamente.Então vocês pegam o primeiro barco e partem para o destino. Chagando lá se deparam com duas vias.</p>
+            <button class="btn-proximo" data-proximo="1">seguir pela mata fechada</button>
+            <button class="btn-proximo" data-proximo="2">entrar na caverna</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Optando por seguir a mata, não demora muito para aparecer as primeiras armadilhas que colocariam suas vidas em perigo</p>
+            <button class="btn-proximo" data-proximo="3">voltar ao inicio da trilha e entar na caverna</button>
+        </div>
+        <div class= "passo" id="passo-2">
+            <img src="img/cenario-passo3-caverna.avif" alt="">
+            <p>Decidindo entar na caverna, vocês ficam entre duas bifurcações.</p>
+            <button class="btn-proximo" data-proximo="4">seguir a iluminada à esquerda</button>
+            <button class="btn-proximo" data-proximo="5">seguir a escura à direita</button>
+        </div>
+        <div class= "passo" id="passo-3">
+            <img src="img/cenario-passo3-caverna.avif" alt="">
+            <p>Vocês voltam ao inicio da trilha e entram na caverna.</p>
+            <button class="btn-proximo" data-proximo="4">seguir o caminho iluminada à esquerda</button>
+            <button class="btn-proximo" data-proximo="5">seguir o caminho escuro à direita</button>
+        </div>
+        <div class= "passo" id="passo-4">
+            <p>Seguindo pelo caminho iluminado à esquerda ao fundo vocês veem um velho marinheiro, foi ele quem mandou o pedido de socorro, ele esteve preso na ilha à dez anos sem formas efetivas de voltar para casa.</p>
+            <button class="btn-proximo" data-proximo="8">ajudar o velho marinheiro a voltar para casa imediatamente.</button>
+        </div>
+        <div class= "passo" id="passo-5">
+            <p>Seguindo pelo caminho escuro à direira vocês percebem que ele não tem saída, então voltam e entram no outro e encontram o velho marinheiro.</p>
+            <button class="btn-proximo" data-proximo="8">levar ele embora imediatamente</button>
+        </div>
+    <div class= "passo" id="passo-6">
+        <p>Seguindo pelo caminho escuro à direira vocês percebem que ele não tem saída, então voltam e entram no outro e encontram o velho marinheiro.</p>
+        <button class="btn-proximo" data-proximo="10">levar ele embora imediatamente</button>
+        </div>
+    </div>
+    <div class= "passo" id="passo-7">
+        <p>Seguindo pelo caminho escuro à direira vocês percebem que ele não tem saída, então voltam e entram no outro e encontram o velho marinheiro.</p>
+        <button class="btn-proximo" data-proximo="">levar ele embora imediatamente</button>
+        </div>
+    </div>
+    <div class= "passo" id="passo-8">
+        <img src="img/cenario-passo8-festa.jpeg" alt="">
+        <p>Vocês ajudaram o velho marinheiro a voltar para casa, e fiseram uma festa de boas-vindas para ele.</p>
+        <button class="btn-proximo" data-proximo="0">Voltar para o inicio do jogo</button>
+        </div>
+        
+        
+    
+
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
+
